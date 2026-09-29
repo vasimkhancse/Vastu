@@ -196,9 +196,9 @@ export default function LotusLogo({ className = "w-8 h-8", textClassName = "text
              <span className="text-gold-600 font-normal">GVS Vaasthu Square</span>
           </span>
           <span className="text-[10px] uppercase tracking-[0.2em] text-earth-500 font-medium -mt-0.5">
-            G V Sathish Kumar • Bangalore
+            G V SATHEESH KUMAR • Bangalore
           </span>
-        </div>
+        </div>  
       )}
     </div>
   );

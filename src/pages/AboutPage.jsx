@@ -20,7 +20,7 @@ export default function AboutPage({ onOpenConsultation }) {
           </h1>
 
           <p className="mt-4 text-base sm:text-lg text-earth-700 leading-relaxed font-normal">
-            Led by expert Vastu consultant <strong>G V Sathish Kumar</strong> in Bangalore, bridging 5,000 years of traditional Indian architectural wisdom with modern daylight analysis, energy efficiency, and mindful spatial aesthetics.
+            Led by expert Vastu consultant <strong>G V Satheeshkumar</strong> in Bangalore, bridging 5,000 years of traditional Indian architectural wisdom with modern daylight analysis, energy efficiency, and mindful spatial aesthetics.
           </p>
         </div>
 
@@ -141,7 +141,7 @@ export default function AboutPage({ onOpenConsultation }) {
         {/* CTA banner */}
         <div className="text-center py-10 bg-ivory-100 rounded-3xl border border-ivory-300">
           <h3 className="text-2xl font-serif text-sage-900">Ready to align your space?</h3>
-          <p className="text-xs text-earth-600 mt-2 mb-6">Talk directly with G V Sathish Kumar at GVS Vaasthu Square today.</p>
+          <p className="text-xs text-earth-600 mt-2 mb-6">Talk directly with G V Satheeshkumar at GVS Vaasthu Square today.</p>
           <button
             onClick={() => onOpenConsultation('Home Vastu Consultation')}
             className="px-6 py-3 cursor-pointer rounded-full  bg-sage-800 hover:bg-sage-900 text-ivory-50 text-xs font-semibold uppercase tracking-wider transition-colors shadow-sm"

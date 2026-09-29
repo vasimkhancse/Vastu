@@ -209,7 +209,7 @@ export default function Contact() {
                   GVS VAASTHU SQUARE
                 </p>
                 <p className="text-xs text-earth-600 font-medium mt-0.5">
-                  Chief Consultant: <span className="text-sage-900 font-semibold">G V Sathish Kumar</span>
+                  Chief Consultant: <span className="text-sage-900 font-semibold">G V SATHEESH KUMAR</span>
                 </p>
               </div>
 

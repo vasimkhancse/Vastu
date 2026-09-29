@@ -215,7 +215,7 @@ export default function Hero({ onOpenConsultation }) {
               transition={{ delay: 0.35, duration: 0.7 }}
               className="text-sm sm:text-base lg:text-lg text-earth-700 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal"
             >
-              Expert Vastu Shastra consultation by <strong className="text-sage-950 font-medium">G V Sathish Kumar</strong>. Create spaces that inspire balance, prosperity, and natural energetic flow with zero demolition.
+              Expert Vastu Shastra consultation by <strong className="text-sage-950 font-medium">G V SATHEESH KUMAR</strong>. Create spaces that inspire balance, prosperity, and natural energetic flow with zero demolition.
             </motion.p>
 
             {/* Action Buttons */}

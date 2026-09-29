@@ -28,7 +28,7 @@ export default function Footer({ onOpenConsultation }) {
             <div className="space-y-1.5 text-xs text-earth-700 pt-1">
               <div className="flex items-center gap-2">
                 <span className="font-semibold text-sage-900">Lead Consultant:</span>
-                <span>G V Sathish Kumar</span>
+                <span>G V SATHEESH KUMAR</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-semibold text-sage-900">Phone:</span>
@@ -129,7 +129,7 @@ export default function Footer({ onOpenConsultation }) {
               Consultation Guidance
             </h4>
             <p className="text-xs text-earth-600 leading-relaxed">
-              Book a private floor plan review or on-site analysis in Bangalore with G V Sathish Kumar.
+              Book a private floor plan review or on-site analysis in Bangalore with G V Satheeshkumar.
             </p>
 
             <button

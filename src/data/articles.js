@@ -5,7 +5,7 @@ export const articlesData = [
     category: 'Fundamentals',
     readTime: '5 min read',
     publishedDate: 'January 2026',
-    author: 'G V Sathish Kumar (GVS Vaasthu Square)',
+    author: 'G V SATHEESH KUMAR (GVS Vaasthu Square)',
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80',
     summary: 'Learn the foundational philosophy of Vastu Shastra and how ancient Indian wisdom harmonizes cosmic energy with modern architecture.',
     content: `
@@ -28,7 +28,7 @@ By aligning our daily living and working zones with these natural rhythms, we ex
     category: 'Elemental Wisdom',
     readTime: '6 min read',
     publishedDate: 'February 2026',
-    author: 'G V Sathish Kumar',
+    author: 'G V Satheeshkumar',
     image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80',
     summary: 'Explore the traditional Pancha Mahabhuta concept and learn practical ways to balance elemental forces in every corner of your home.',
     content: `

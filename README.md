@@ -1,10 +1,10 @@
 # GVS VAASTHU SQUARE
 
-Official web platform for **GVS VAASTHU SQUARE**, led by **G V Sathish Kumar**, professional Vastu Shastra Consultant in Bangalore.
+Official web platform for **GVS VAASTHU SQUARE**, led by **G V SATHEESH KUMAR**, professional Vastu Shastra Consultant in Bangalore.
 
 ## Business Details
 - **Company Name:** GVS VAASTHU SQUARE
-- **Consultant:** G V Sathish Kumar
+- **Consultant:** G V SATHEESH KUMAR
 - **Phone / WhatsApp:** +91 98458 78915
 - **Email:** info@gvsvaasthusquare.in
 - **Location:** Bangalore, Karnataka, India
