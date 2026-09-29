@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory-50: #FDFCF9;
+  --color-ivory-100: #FAF7F2;
+  --color-ivory-200: #F4ECE1;
+  --color-ivory-300: #EBDDCC;
+  --color-ivory-400: #DFCAB2;
+  --color-ivory-500: #CEB294;
+
+  --color-gold-50: #FBF8F1;
+  --color-gold-100: #F7F0DF;
+  --color-gold-200: #EDDCB8;
+  --color-gold-300: #DFBF87;
+  --color-gold-400: #D0A65B;
+  --color-gold-500: #C5963E;
+  --color-gold-600: #A97B2C;
+  --color-gold-700: #875E20;
+  --color-gold-800: #69471A;
+  --color-gold-900: #4D3414;
+
+  --color-sage-50: #F3F7F5;
+  --color-sage-100: #E4EDE8;
+  --color-sage-200: #C9DCD2;
+  --color-sage-300: #A4C3B4;
+  --color-sage-400: #7AA392;
+  --color-sage-500: #548371;
+  --color-sage-600: #3D6858;
+  --color-sage-700: #2C4E42;
+  --color-sage-800: #203930;
+  --color-sage-900: #14251F;
+  --color-sage-950: #0C1A15;
+
+  --color-earth-50: #F9F7F5;
+  --color-earth-100: #F2ECE6;
+  --color-earth-200: #E2D5CA;
+  --color-earth-300: #CEB8A7;
+  --color-earth-400: #B49782;
+  --color-earth-500: #947761;
+  --color-earth-600: #755B47;
+  --color-earth-700: #5B4434;
+  --color-earth-800: #423125;
+  --color-earth-900: #2E2118;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", Inter, system-ui, sans-serif;
+  --font-accent: "Marcellus", Cinzel, serif;
+}
+
+body {
+  background-color: #FDFBF7;
+  color: #4A3E34;
+  font-family: 'Plus Jakarta Sans', Inter, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #203930;
+  letter-spacing: -0.01em;
+}
+
+/* Subtle spiritual cards & gradients */
+.bg-mandala-pattern {
+  background-image: radial-gradient(#C5963E 0.6px, transparent 0.6px), radial-gradient(#3D6858 0.6px, #FDFBF7 0.6px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.bg-radial-soft-gold {
+  background: radial-gradient(circle at 50% 30%, rgba(247, 240, 223, 0.7) 0%, rgba(253, 251, 247, 0) 70%);
+}
+
+.bg-radial-soft-sage {
+  background: radial-gradient(circle at 80% 20%, rgba(228, 237, 232, 0.6) 0%, rgba(253, 251, 247, 0) 65%);
+}
+
+.spiritual-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(235, 221, 204, 0.75);
+  box-shadow: 0 10px 30px -5px rgba(122, 104, 88, 0.05), 0 2px 6px -1px rgba(122, 104, 88, 0.03);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.spiritual-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(197, 150, 62, 0.45);
+  box-shadow: 0 20px 40px -10px rgba(197, 150, 62, 0.12), 0 4px 12px -2px rgba(44, 78, 66, 0.06);
+}
+
+.shadow-soft {
+  box-shadow: 0 4px 20px -2px rgba(122, 104, 88, 0.06), 0 2px 6px -1px rgba(122, 104, 88, 0.04);
+}
+
+.shadow-soft-lg {
+  box-shadow: 0 12px 32px -4px rgba(122, 104, 88, 0.09), 0 4px 12px -2px rgba(122, 104, 88, 0.04);
+}
+
+.shadow-gold-glow {
+  box-shadow: 0 0 25px rgba(197, 150, 62, 0.3);
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 35s linear infinite;
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.03);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 4s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DFCAB2;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5963E;
+}
