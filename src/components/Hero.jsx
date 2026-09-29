@@ -235,6 +235,7 @@ export default function Hero({ onOpenConsultation }) {
 
               <Link
                 to="/principles"
+                onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}
                 className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-white/90 hover:bg-white text-earth-800 border border-ivory-300 hover:border-gold-300 text-sm font-semibold tracking-wide shadow-xs hover:shadow-sm transition-all flex items-center justify-center gap-2 group"
               >
                 <span>Explore Vastu</span>
