@@ -111,7 +111,7 @@ export default function Contact() {
                     <input
                       type="tel"
                       required
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 98458 78915"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full px-3.5 py-2.5 bg-[#FAF8F5] border border-ivory-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gold-400 text-sage-900 transition-all"
@@ -204,9 +204,14 @@ export default function Contact() {
           >
             {/* Contact Details Card */}
             <div className="spiritual-card rounded-3xl p-6 sm:p-7 bg-white border border-gold-200/80 space-y-5">
-              <h4 className="text-lg font-serif font-semibold text-sage-900">
-                Consultancy Information
-              </h4>
+              <div>
+                <p className="text-lg font-semibold text-earth-600">
+                  GVS VAASTHU SQUARE
+                </p>
+                <p className="text-xs text-earth-600 font-medium mt-0.5">
+                  Chief Consultant: <span className="text-sage-900 font-semibold">G V Sathish Kumar</span>
+                </p>
+              </div>
 
               <div className="space-y-4 text-sm text-earth-700">
                 <div className="flex items-start gap-3.5">
@@ -214,9 +219,9 @@ export default function Contact() {
                     <Phone className="w-4 h-4" />
                   </div>
                   <div>
-                    <span className="text-xs text-earth-500 uppercase font-semibold block">Phone</span>
-                    <a href="tel:+919876543210" className="font-medium text-sage-900 hover:text-gold-700 transition-colors">
-                      +91 80456 78900 / +91 98765 43210
+                    <span className="text-xs text-earth-500 uppercase font-semibold block">Phone / WhatsApp</span>
+                    <a href="tel:+919845878915" className="font-medium text-sage-900 hover:text-gold-700 transition-colors">
+                      +91 98458 78915
                     </a>
                   </div>
                 </div>
@@ -227,8 +232,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <span className="text-xs text-earth-500 uppercase font-semibold block">Email</span>
-                    <a href="mailto:namaste@vastuharmony.com" className="font-medium text-sage-900 hover:text-gold-700 transition-colors">
-                      namaste@vastuharmony.com
+                    <a href="mailto:info@gvsvaasthusquare.in" className="font-medium text-sage-900 hover:text-gold-700 transition-colors">
+                      info@gvsvaasthusquare.in
                     </a>
                   </div>
                 </div>
@@ -238,9 +243,9 @@ export default function Contact() {
                     <MapPin className="w-4 h-4" />
                   </div>
                   <div>
-                    <span className="text-xs text-earth-500 uppercase font-semibold block">Headquarters</span>
+                    <span className="text-xs text-earth-500 uppercase font-semibold block">Location</span>
                     <span className="font-medium text-sage-900">
-                      Lotus Sanctuary, 4th Block, Hopes College Road, Tirupur - 641 608
+                      Bangalore, Karnataka, India
                     </span>
                   </div>
                 </div>
@@ -252,8 +257,8 @@ export default function Contact() {
                   <div>
                     <span className="text-xs text-earth-500 uppercase font-semibold block">Consultation Hours</span>
                     <span className="font-medium text-sage-900">
-                      Monday – Saturday: 9:30 AM – 6:30 PM IST <br />
-                      <span className="text-xs text-earth-500 font-normal">Remote Global Consultations by Appointment</span>
+                      Monday – Saturday: 9:30 AM – 7:00 PM IST <br />
+                      <span className="text-xs text-earth-500 font-normal">On-site (Bangalore) & Remote Global Consultations</span>
                     </span>
                   </div>
                 </div>

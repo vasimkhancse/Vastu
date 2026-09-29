@@ -1,16 +1,22 @@
-# React + Vite
+# GVS VAASTHU SQUARE
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Official web platform for **GVS VAASTHU SQUARE**, led by **G V Sathish Kumar**, professional Vastu Shastra Consultant in Bangalore.
 
-Currently, two official plugins are available:
+## Business Details
+- **Company Name:** GVS VAASTHU SQUARE
+- **Consultant:** G V Sathish Kumar
+- **Phone / WhatsApp:** +91 98458 78915
+- **Email:** info@gvsvaasthusquare.in
+- **Location:** Bangalore, Karnataka, India
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- **Framework:** React 19 + Vite
+- **Styling:** Tailwind CSS v4 + Custom Design Tokens
+- **Animations:** Framer Motion & Canvas Confetti
+- **Icons:** Lucide React
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Development
+```bash
+npm install
+npm run dev
+```

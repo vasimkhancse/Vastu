@@ -22,8 +22,27 @@ export default function Footer({ onOpenConsultation }) {
             </Link>
             
             <p className="text-sm text-earth-600 max-w-sm leading-relaxed font-normal">
-              Harmonizing living and working spaces through timeless Vastu Shastra principles, natural elemental balance, and non-destructive modern solutions.
+              Harmonizing residential and commercial spaces across Bangalore and globally through authentic Vastu Shastra principles, non-destructive remedies, and personalized architectural consultation.
             </p>
+
+            <div className="space-y-1.5 text-xs text-earth-700 pt-1">
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-sage-900">Lead Consultant:</span>
+                <span>G V Sathish Kumar</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-sage-900">Phone:</span>
+                <a href="tel:+919845878915" className="hover:text-gold-700 transition-colors">+91 98458 78915</a>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-sage-900">Email:</span>
+                <a href="mailto:info@gvsvaasthusquare.in" className="hover:text-gold-700 transition-colors">info@gvsvaasthusquare.in</a>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-sage-900">Location:</span>
+                <span>Bangalore, Karnataka, India</span>
+              </div>
+            </div>
 
             <div className="flex items-center gap-3 pt-2">
               <a
@@ -78,7 +97,7 @@ export default function Footer({ onOpenConsultation }) {
               </li>
               <li>
                 <Link to="/about" onClick={scrollToTop} className="hover:text-gold-700 transition-colors">
-                  About Vastu
+                  About GVS Vaasthu
                 </Link>
               </li>
               <li>
@@ -110,7 +129,7 @@ export default function Footer({ onOpenConsultation }) {
               Consultation Guidance
             </h4>
             <p className="text-xs text-earth-600 leading-relaxed">
-              Book a private floor plan review or on-site analysis with our certified consultants.
+              Book a private floor plan review or on-site analysis in Bangalore with G V Sathish Kumar.
             </p>
 
             <button
@@ -132,7 +151,7 @@ export default function Footer({ onOpenConsultation }) {
           </div>
 
           <div className="flex items-center gap-6 flex-shrink-0">
-            <span>© 2026 Vastu Harmony. All rights reserved.</span>
+            <span>© 2026 GVS VAASTHU SQUARE. All rights reserved.</span>
             
             <button
               onClick={scrollToTop}

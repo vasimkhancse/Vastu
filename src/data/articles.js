@@ -5,7 +5,7 @@ export const articlesData = [
     category: 'Fundamentals',
     readTime: '5 min read',
     publishedDate: 'January 2026',
-    author: 'Vastu Harmony Editorial',
+    author: 'G V Sathish Kumar (GVS Vaasthu Square)',
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80',
     summary: 'Learn the foundational philosophy of Vastu Shastra and how ancient Indian wisdom harmonizes cosmic energy with modern architecture.',
     content: `
@@ -28,7 +28,7 @@ By aligning our daily living and working zones with these natural rhythms, we ex
     category: 'Elemental Wisdom',
     readTime: '6 min read',
     publishedDate: 'February 2026',
-    author: 'Acharya Raghavendra',
+    author: 'G V Sathish Kumar',
     image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80',
     summary: 'Explore the traditional Pancha Mahabhuta concept and learn practical ways to balance elemental forces in every corner of your home.',
     content: `
@@ -49,7 +49,7 @@ When these five elements are placed in harmony with their natural directional co
     category: 'Directional Guide',
     readTime: '7 min read',
     publishedDate: 'March 2026',
-    author: 'Vastu Harmony Team',
+    author: 'GVS Vaasthu Square Team',
     image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80',
     summary: 'Understand the traditional significance of each cardinal and ordinal direction, from Kubera’s North to Ishana’s sacred Northeast.',
     content: `

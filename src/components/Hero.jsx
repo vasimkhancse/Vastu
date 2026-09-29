@@ -194,7 +194,7 @@ export default function Hero({ onOpenConsultation }) {
             >
               <span className="w-2 h-2 rounded-full bg-gold-500 animate-pulse"></span>
               <span className="text-[11px] sm:text-xs font-semibold uppercase tracking-widest text-gold-800">
-                Ancient Wisdom • Modern Architecture
+                GVS VAASTHU SQUARE • Bangalore
               </span>
             </motion.div>
 
@@ -215,7 +215,7 @@ export default function Hero({ onOpenConsultation }) {
               transition={{ delay: 0.35, duration: 0.7 }}
               className="text-sm sm:text-base lg:text-lg text-earth-700 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal"
             >
-              Discover the timeless principles of Vastu Shastra and create spaces that inspire balance, positivity, and natural energetic flow.
+              Expert Vastu Shastra consultation by <strong className="text-sage-950 font-medium">G V Sathish Kumar</strong>. Create spaces that inspire balance, prosperity, and natural energetic flow with zero demolition.
             </motion.p>
 
             {/* Action Buttons */}

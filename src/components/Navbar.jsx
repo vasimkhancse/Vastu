@@ -45,7 +45,14 @@ export default function Navbar({ onOpenConsultation }) {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Brand / Logo */}
-        <Link to="/" className="flex items-center">
+        <Link
+          to="/"
+          onClick={() => {
+            setIsOpen(false);
+            window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+          }}
+          className="flex items-center"
+        >
           <LotusLogo className="w-9 h-9 sm:w-10 sm:h-10" textClassName="text-xl sm:text-2xl" />
         </Link>
 
@@ -55,6 +62,9 @@ export default function Navbar({ onOpenConsultation }) {
             <NavLink
               key={link.name}
               to={link.path}
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+              }}
               className={({ isActive }) =>
                 `px-3.5 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
                   isActive
@@ -83,7 +93,7 @@ export default function Navbar({ onOpenConsultation }) {
         <div className="flex lg:hidden items-center gap-2">
           <button
             onClick={() => onOpenConsultation('Home Vastu Consultation')}
-            className="p-2 rounded-full bg-sage-50 text-sage-800 hover:bg-sage-100 transition-colors border border-sage-200"
+            className="p-2 rounded-full bg-sage-50 text-sage-800 hover:bg-sage-100 transition-colors border border-sage-200 cursor-pointer"
             title="Book Consultation"
           >
             <PhoneCall className="w-4 h-4" />
@@ -91,7 +101,7 @@ export default function Navbar({ onOpenConsultation }) {
           <button
             onClick={() => setIsOpen(!isOpen)}
             aria-label={isOpen ? 'Close menu' : 'Open menu'}
-            className="p-2.5 rounded-xl text-sage-900 hover:bg-ivory-200/60 focus:outline-none transition-colors"
+            className="p-2.5 rounded-xl text-sage-900 hover:bg-ivory-200/60 focus:outline-none transition-colors cursor-pointer"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -113,6 +123,10 @@ export default function Navbar({ onOpenConsultation }) {
                 <NavLink
                   key={link.name}
                   to={link.path}
+                  onClick={() => {
+                    setIsOpen(false);
+                    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+                  }}
                   className={({ isActive }) =>
                     `block px-4 py-2.5 rounded-xl text-base font-medium transition-colors ${
                       isActive
@@ -131,7 +145,7 @@ export default function Navbar({ onOpenConsultation }) {
                     setIsOpen(false);
                     onOpenConsultation('Home Vastu Consultation');
                   }}
-                  className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-sage-800 text-ivory-50 font-medium text-sm shadow-md hover:bg-sage-900 transition-colors"
+                  className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-sage-800 text-ivory-50 font-medium text-sm shadow-md hover:bg-sage-900 transition-colors cursor-pointer"
                 >
                   <Sparkles className="w-4 h-4 text-gold-300" />
                   <span>Book a Consultation</span>

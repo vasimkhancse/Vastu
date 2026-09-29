@@ -89,7 +89,7 @@ export default function About({ onOpenConsultation }) {
             </h2>
 
             <p className="text-sm sm:text-base text-earth-700 leading-relaxed font-normal">
-              At Vastu Harmony, we bridge the sacred spatial science of ancient India with the functional realities of contemporary architecture. We do not promote superstition, dogma, or destructive demolition.
+              At <strong className="text-sage-950 font-medium">GVS Vaasthu Square</strong>, guided by principal consultant <strong className="text-sage-950 font-medium">G V Sathish Kumar</strong> in Bangalore, we bridge the sacred spatial science of ancient India with the functional realities of contemporary architecture. We do not promote superstition, dogma, or destructive demolition.
             </p>
 
             <p className="text-sm sm:text-base text-earth-700 leading-relaxed font-normal">

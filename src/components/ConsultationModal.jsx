@@ -112,7 +112,7 @@ export default function ConsultationModal({ isOpen, onClose, initialService = 'H
                     <input
                       type="tel"
                       required
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 98458 78915"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full px-3.5 py-2.5 bg-white border border-ivory-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gold-400 focus:border-gold-400 text-sage-900 transition-all"
@@ -242,7 +242,7 @@ export default function ConsultationModal({ isOpen, onClose, initialService = 'H
                 Consultation Request Received!
               </h3>
               <p className="text-earth-600 text-sm max-w-md mx-auto leading-relaxed">
-                Namaste, <strong className="text-sage-800">{formData.fullName}</strong>. Our senior Vastu consultant will review your details and reach out within 24 hours at <strong className="text-sage-800">{formData.email}</strong> to confirm your appointment time and blueprint checklist.
+                Namaste, <strong className="text-sage-800">{formData.fullName}</strong>. Principal consultant <strong className="text-sage-800">G V Sathish Kumar</strong> and our <strong className="text-sage-800">GVS Vaasthu Square</strong> team in Bangalore will review your details and reach out within 24 hours at <strong className="text-sage-800">{formData.email}</strong> to confirm your appointment time and blueprint checklist.
               </p>
 
               <div className="p-4 bg-ivory-100/80 rounded-2xl border border-ivory-200 text-xs text-earth-700 max-w-sm mx-auto text-left space-y-1">
